@@ -16,7 +16,7 @@ namespace HtmlSerializer
         public Selector Child { get; set; }
 
 
-        public static Selector ConvertQuery(string query)
+        public static Selector ConvertToSelector(string query)
         {
             var queryParts = query.Split(' ');
             Selector rootSelector = null;
